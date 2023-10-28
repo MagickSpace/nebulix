@@ -7,6 +7,8 @@ import en from '@locales/en.json';
 import de from '@locales/de.json';
 import es from '@locales/es.json';
 import hr from '@locales/hr.json';
+import uk from '@locales/uk.json';
+import ru from '@locales/ru.json';
 const lang = import.meta.env.WEBSITE_LANGUAGE;
 export const t = (field: string): string => {
     const translations: Record<string, Locale>  = {
@@ -15,6 +17,8 @@ export const t = (field: string): string => {
         es: es,
         de: de,
         hr: hr,
+        uk: uk,
+        ru: ru,
     };
 
     if (translations[lang] && translations[lang][field]) {

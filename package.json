@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "bun-types": "^1.0.7",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "pagefind": "^1.0.3",
